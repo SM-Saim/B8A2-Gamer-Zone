@@ -11,7 +11,7 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 .nav-container {
-  height: 70px;
+  height: 75px;
   display: flex;
   align-items: center;
   max-width: 1400px;
@@ -120,6 +120,13 @@ body {
   cursor: pointer;
   margin-right: 20px;
 }
+
+.btn-1:hover {
+  border: 2px solid #ff42a5;
+  color: #ff42a5;
+  background: white;
+}
+
 .btn-2 {
   color: white;
   font-size: 1.1rem;
@@ -130,13 +137,18 @@ body {
   border: none;
   cursor: pointer;
 }
+.btn-2:hover {
+  border: 2px solid #4ec5f7;
+  color: #4ec5f7;
+  background: white;
+}
 .banner-right {
   width: 50%;
 }
 .banner-right img {
   width: 85%;
   position: relative;
-  top: 70px;
+  top: 78px;
   left: 10px;
 }
 
@@ -167,26 +179,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* .card {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 20px;
-}
-.card-1 {
-  height: 360px;
-  width: 270px;
-}
-.card-1 img {
-  width: 100%;
-  height: 85%;
-}
-.card-1 img p {
-  color: #534c64;
-  font-size: 1.1rem;
-  font-weight: 500;
-} */
-/* Card start here */
+
 .card {
   display: flex;
   justify-content: space-evenly;
@@ -297,7 +290,7 @@ body {
 .hovers {
   height: 400px;
   max-width: 1400px;
-  margin: -80px auto 50px;
+  margin: -80px auto 0px;
   background: linear-gradient(
     90deg,
     rgba(255, 66, 165, 0.03) 0%,
@@ -377,9 +370,12 @@ footer .list-1 a {
   font-size: 18px;
   font-weight: 500;
 }
+.list-2 img {
+  width: 35px;
+}
+
 .list-2 a {
   text-align: center;
-
   margin: auto;
   margin-left: 20px;
 }
@@ -404,7 +400,7 @@ footer small {
   font-weight: 300;
 }
 
-/* for - Tablet ------------------------------------------------------ */
+/* Media Query for - Tablet ------------------------------------------------------ */
 @media screen and (max-width: 768px) {
   .nav-logo-container {
     width: 40%;
@@ -445,7 +441,7 @@ footer small {
 
 /* tablet ends here */
 
-/* for - Mobile-L -------------------------------------------------*/
+/* Media Query for - Mobile-L -------------------------------------------------*/
 @media screen and (max-width: 425px) {
   .nav-container {
     flex-direction: column;
@@ -632,5 +628,92 @@ footer small {
   }
   .banner-right {
     margin-left: 35px;
+  }
+  footer small {
+    font-size: 10px;
+  }
+
+  footer .list-3 a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+    font-weight: 500;
+  }
+  list-2 a {
+    text-align: center;
+    margin: auto;
+    margin-left: 10px;
+    width: 25px;
+  }
+  .list-2 img {
+    width: 25px;
+  }
+  footer .list-3 {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+  footer .list-1 a {
+    text-decoration: none;
+    margin-left: 12px;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .footer-head p {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+  .footer-head span {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+  .footer-head img {
+    width: 60px;
+  }
+  /* demo */
+  .hovers {
+    width: 370px;
+    height: 150px;
+    margin: -80px auto 0px;
+  }
+  .hoverline-one {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+  .hoverline-one button {
+    background: white;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    border: none;
+    align-items: center;
+    font-size: 9px;
+    font-weight: 100;
+  }
+  .hoverline-one button img {
+    width: 30px;
+    margin-right: 2px;
+  }
+  .hovers {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  .full-play {
+    width: 380px;
+    margin-left: 20px;
   }
 }
