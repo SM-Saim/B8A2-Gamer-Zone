@@ -443,9 +443,15 @@ footer small {
       rgba(255, 66, 165, 0.03) 0%,
       rgba(255, 66, 165, 0.03) 100%
     );
-    .hovers {
-      background: none;
-    }
+  }
+  .hovers {
+    background: none;
+  }
+  .small-img {
+    left: 340px;
+  }
+  .play-instantly-left {
+    margin-left: 20px;
   }
 }
 
@@ -689,7 +695,7 @@ footer small {
   .footer-head img {
     width: 60px;
   }
-  /* demo */
+
   .hovers {
     width: 370px;
     height: 150px;
@@ -728,6 +734,7 @@ footer small {
   }
   .nav-logo-container img {
     margin-left: 10px;
+    width: 17%;
   }
   .play {
     background: linear-gradient(
@@ -735,8 +742,19 @@ footer small {
       rgba(255, 66, 165, 0.03) 0%,
       rgba(255, 66, 165, 0.03) 100%
     );
-    .hovers {
-      background: none;
-    }
+  }
+  .hovers {
+    background: none;
+  }
+  .nav-logo-container {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .follow-us a {
+    margin: 0px;
+  }
+  .play-instantly-right img {
+    width: 260px;
+    margin-left: 50px;
   }
 }
